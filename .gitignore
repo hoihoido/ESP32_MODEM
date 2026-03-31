@@ -1,0 +1,8 @@
+# PlatformIO
+.pio/
+.pio
+.vscode/
+.cache/
+# その他
+.DS_Store
+*.map
