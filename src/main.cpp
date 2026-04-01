@@ -12,7 +12,11 @@
 #define RTO 50  // 再送タイムアウト(ms)
 
 // ===== 相手MAC（書き換え）=====
-uint8_t PEER_MAC[] = {0x24,0x6F,0x28,0xAA,0xBB,0xCC};
+// No2: 88:13:bf:0c:15:c4
+// No3: ac:15:18:d7:97:e4
+//uint8_t PEER_MAC[] = {0x88,0x13,0xbf,0x0c,0x15,0xc4};  // to No2
+uint8_t PEER_MAC[] = {0xac,0x15,0x18,0xd7,0x97,0xe4}; //to No3
+
 
 // ===== パケット =====
 typedef struct {

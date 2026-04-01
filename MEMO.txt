@@ -1,0 +1,19 @@
+E:\Program Files (x86)\Arduino\hardware\espressif\esp32\tools> .\esptool.py --port COM4 flash_id
+esptool.py v2.6-beta1
+Serial port COM4
+Connecting....
+Detecting chip type... ESP32
+Chip is ESP32D0WDQ5 (revision 1)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+MAC: 88:13:bf:0c:15:c4
+Uploading stub...
+Running stub...
+Stub running...
+Manufacturer: c4
+Device: 6016
+Detected flash size: 4MB
+Hard resetting via RTS pin...
+
+
+No2: 88:13:bf:0c:15:c4
+No3: ac:15:18:d7:97:e4
